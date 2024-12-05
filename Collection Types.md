@@ -49,7 +49,7 @@ Arrays also have modifiers like:
 `.reverse()`
 `.shuffle()`
 ```
-#Dictionary
+# Dictionary
 
 Definition: A collection type. This collection of items have labels called key: Value pairs. Its just like a real dicionary with the `word:definition`
 
@@ -65,7 +65,7 @@ let devices: [String:   String] = [
 devices["phone"]
 ```
 
-#Set 
+# Set 
 
 Definition: Very similiar to arrays. They are collections of items that are unordered, they can not have duplicates unlike arrays, and has faster performance due to the hash value requirement.
 

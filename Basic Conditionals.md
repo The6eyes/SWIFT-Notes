@@ -1,4 +1,4 @@
-# Conditionals
+# Basic Conditionals
 
 You can give swift a condition and if that condition is true it will run code of our choice
 

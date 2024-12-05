@@ -40,5 +40,46 @@ var ages: [Int] = []
 ```
 By doing this X code knows that we want an array of ints. So if later you tried to put a different "type" like string or a boolean it wouldnt work because we decalred it to be an array of ints.
 
-Arrays also have modifiers 
+Arrays also have modifiers like:
+```swift
+`.count`
+`.first`
+`.last`
+`.sort()`
+`.reverse()`
+`.shuffle()`
+```
+#Dictionary
 
+Definition: A collection type. This collection of items have labels called key: Value pairs. Its just like a real dicionary with the `word:definition`
+
+For example 
+
+```swift
+let devices: [String:   String] = [
+    "phone": "iPhone X" ,
+    "laptop": "2016 MacBook Pro" ,
+    "tablet": "2018 iPad Pro"   ,
+    "desktop": "2017 iMac Pro"  ,
+]
+devices["phone"]
+```
+
+#Set 
+
+Definition: Very similiar to arrays. They are collections of items that are unordered, they can not have duplicates unlike arrays, and has faster performance due to the hash value requirement.
+
+```swift
+var ages2 = [3,8,14,18,24]
+
+var agesSet = Set(ages2)
+print(agesSet)
+
+agesSet.insert(909)
+agesSet.insert(99)
+agesSet.contains(99)
+
+print(agesSet)
+```
+
+These are the 3 main collection types.

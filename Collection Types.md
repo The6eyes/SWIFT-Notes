@@ -10,8 +10,8 @@ For example:
 
 We can first establish a few constants
 
-```SWIFT```
-let naruto
-let sasuke
-let sakura
+```swift
+let naruto = naruto
+let sasuke = sasuke
+let sakura = sakura
 ```
